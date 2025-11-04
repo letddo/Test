@@ -42,12 +42,12 @@ charadex.sheet = {
 
   options: {
 
-    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
-    statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
-    rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
-    species: ['All', 'Test'],
-    itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
-    traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
+    designTypes: ['전체', '공식 디자인', '게스트 디자인', '디자인 슬롯', '디자인권'],
+    statuses: ['전체', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
+    rarity: ['전체', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
+    species: ['전체', 'Dog', 'Cat', 'Bunny'],
+    itemTypes: ['전체', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
+    traitTypes: ['전체', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
 
   }
 
@@ -99,7 +99,7 @@ charadex.page.items = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Item', 'Rarity']
+    parameters: ['전체', '이름', '등급급']
   },
 
   prevNext: {
