@@ -29,7 +29,7 @@ charadex.sheet = {
   id: "1YjbqDdOLMETABHY9u3e5FdKkQuP3uN6JAdrY1AhZs2c",
 
   pages: {
-    masterlist:    "마스터리스",
+    masterlist:    "마스터리스트",
     masterlistLog: "마스터리스트 내역",
     inventory:     "인벤토리",
     inventoryLog:  "인벤토리 내역",
