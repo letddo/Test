@@ -42,8 +42,8 @@ charadex.sheet = {
 
   options: {
 
-    designTypes: ['전체', '공식 디자인', '게스트 디자인', '디자인 슬롯', '디자인권'],
-    statuses: ['전체', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
+    designTypes: ['전체', '공식 디자인 개체', '게스트 디자인 개체', '미사용 디자인권', '디자인권 개체'],
+    statuses: ['전체', '귀속됨', '선물 가능', '재분양 가능', '재판매 가능', '무효화', '판매중'],
     rarity: ['전체', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
     species: ['전체', 'Dog', 'Cat', 'Bunny'],
     itemTypes: ['전체', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
@@ -85,7 +85,6 @@ charadex.page.items = {
   filters: {
     toggle: true,
     parameters: {
-      '이름': charadex.sheet.options.items,
       '카테고리': charadex.sheet.options.itemTypes,
       '등급': charadex.sheet.options.rarity,
     }
