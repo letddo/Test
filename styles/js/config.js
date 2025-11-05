@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Test",
-  url: "http://localhost:5500", // https://letddo.github.io/Test/
+  url: "https://letddo.github.io/Test/", // https://letddo.github.io/Test/
   description: `A tool for organizing small ARPGs and species.`
 }
 
